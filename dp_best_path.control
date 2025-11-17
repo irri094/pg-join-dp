@@ -1,0 +1,4 @@
+comment = 'DP algorithm to find the globally best join path'
+default_version = '1.0'
+module_pathname = '$libdir/dp_best_path'
+relocatable = true
