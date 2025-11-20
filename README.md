@@ -14,3 +14,14 @@ can be accomplished by
 SELECT * FROM dp_best_path('R','S','T','U','B','C','D', K);
 ```
 using this extension. Unfortunately argument count is fixed for now.
+
+
+Requirements:
+```postgresql-server-dev-16```
+
+Installing:
+```
+make
+make install
+```
+in sql: ```CREATE EXTENSION dp_best_path;```
